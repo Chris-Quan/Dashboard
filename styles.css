@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+.sidebar {
+  background-color: #0ea5e9;
+  width: 5rem;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar:hover {
+  width: 250px;
+}
+
+.sidebarItem > h1 {
+  display: none;
+  margin-left: 2rem;
+}
+
+.sidebar:hover > .sidebarItem > h1 {
+  display: flex;
+}
+
+.sidebar:hover ~ .navbar,
+.sidebar:hover ~ .content {
+  margin-left: calc(250px - 5rem);
+}
+
+.sidebarItem {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebarItem > * {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar > *:not(:first-child) > * {
+  padding: 1rem 0.5rem 0.5rem 1rem;
+  font-size: 22px;
+  padding-left: 20px;
+}
+.sidebar > *:not(:first-child) > img {
+  width: calc(20px + 0.5vw);
+  height: calc(20px + 0.5vw);
+}
+
+.sidebar > div:nth-child(8) {
+  padding-top: 60px;
+}
