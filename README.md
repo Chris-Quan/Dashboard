@@ -4,6 +4,7 @@ This project is a dashboard to display various information such as projects in t
 
 The intention for this project is to demostrate a basic understanding of HTML and CSS, this project will lay the foundations for future projects.
 
+<img src="images/websiteScreenShot.png"/>
 
 ## goals
 
@@ -15,4 +16,4 @@ The intention for this project is to demostrate a basic understanding of HTML an
 ## credit
 Thanks go the odin project for the project prompt and guidelines (https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
-also thank you codingWithRobz for help with the project (https://github.com/codingWithRobz/)
+also thanks go to codingWithRobz for help with the project (https://github.com/codingWithRobz/)
